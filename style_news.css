@@ -1,0 +1,258 @@
+body{
+    background-color: black;
+    background-image: url(image/pc_back.jpg);
+    margin:0;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: 'Century Gothic' , 'arial' , sans-serif;
+}
+
+
+@media screen and (max-width: 599px) { 
+   body{
+    background-color: black;
+    background-image: url(image/ph_back.jpg);
+    background-size: contain;
+   }
+}
+
+.wrap{
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+h1{
+    text-transform:capitalize;
+}
+
+/*header*/
+header{
+    background-color: rgba(255,255,255,0.9);
+    color:rgba(0,0,0,0.8);
+    font-size: 45px;
+    height: 100px;
+    width: 100vw;
+    line-height: 100px;
+    position: fixed;
+}
+
+@media screen and (max-width: 599px) { 
+    header{
+        font-size: 20px;
+        height: 80px;
+        width: 100vw;
+        padding-left: 50px;
+        position: fixed;
+        padding-top: -80px;
+        vertical-align: top;
+    }
+}
+
+
+.btn_sample{
+    cursor: pointer;
+}
+.content {
+    clear: both;
+    margin: 20px 0;
+    padding: 20px 0;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    border: dotted 3px #ccc;
+}
+
+#rogo{
+    height:100px;
+    width:100px;
+    margin-left: 50px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 599px) { 
+    #rogo{
+        height:50px;
+        width:50px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
+
+.top_menu{
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+#menu{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    vertical-align: middle;
+    color: red;
+    background-color: rgba(255,255,255,0);
+    border: solid 1px rgba(255,255,255,0);
+}
+#menu:hover{
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+}
+
+
+.button{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgba(255,255,255,0);
+    border: solid 1px rgba(255,255,255,0);
+    vertical-align: middle;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+}
+
+@media screen and (max-width: 599px) {
+    #menu{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+}
+
+.all_news{
+    background-color: white;
+}
+.news_room{
+    text-decoration:underline;
+    color:red;
+    text-align: center;
+}
+
+#news_room{
+    padding-top:80px;
+    color: black;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0,0,0,0.8);
+}
+
+th{
+    text-align: center;
+}
+
+.date{
+    text-decoration:underline;
+    color:red;
+}
+
+#date{
+    color: rgba(0,0,0,0.8);
+}
+
+h3{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.finish{
+    background-color: rgba(0,0,0,0.5);
+    padding:50px;
+    text-align: center;
+}
+
+#finish_con{
+    height:30px;
+    width:30px;
+    padding: 10px;
+    filter: invert(); 
+    text-align: center;
+}
+#finish_con:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+    transition:all 0.3s;
+}
+
+#f_blog{
+    display: inline-block;
+    font-size: 20px;
+    height:30px;
+    width: 200px;
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+    background-color: white;
+    border: solid 1px white;
+    padding:5px;
+    border-radius: 5px;
+    transition:all 0.1s;
+}
+#f_blog:hover{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: solid 1px white;
+}
+
+
+
+
+
+.box_news{
+    background-color: white;
+    padding:50px;
+}
+
+
+footer{
+    font-family: 'arial';
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    position: fixed !important;  
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    width: 100%;  
+    height:20px;
+    text-align: center;
+    padding-top:8px;
+}
+
+@media screen and (max-width: 599px) { 
+    footer{
+        background-color: black;
+        position: relative !important;
+    }
+}
+
+font{
+    vertical-align: middle;
+}
+
+
